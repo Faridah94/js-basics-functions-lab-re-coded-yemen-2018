@@ -1,4 +1,5 @@
 // Code your solution in this file!
+<<<<<<< HEAD
 function distanceFromHqInBlocks(end)
 {
   if(end > 42){
@@ -42,4 +43,16 @@ function calculatesFarePrice(start, end){
     return 0;
     
   }
+=======
+function distanceFromHqInBlocks(destination)
+{
+  if(destination > 42){
+    return (destination - 42);  
+  }
+  else{
+    return (destination - 42)*-1;  
+  }
+  
+  
+>>>>>>> 81e0296c26f21a5acae0d10809743704cf22b339
 }
